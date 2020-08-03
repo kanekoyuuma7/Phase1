@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GamePage</title>
+    <link href="../styles/game-styles.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css2?family=Anton&display=swap' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../scripts/game.js"></script>
+    <script src="../scripts/Data/data.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+
+  </head>
+  <body>
+    
+    <h2>GamePage</h2>
+    <div id="victory">勝敗：</div>
+    <table border="1">
+        <tr>
+            <td id="borde1-1"><a onclick="onClick(this);">　</a></td>
+            <td id="borde1-2"><a onclick="onClick(this);">　</a></td>
+            <td id="borde1-3"><a onclick="onClick(this);">　</a></td>
+        </tr>
+        <tr>
+            <td id="borde2-1"><a onclick="onClick(this);">　</a></td>
+            <td id="borde2-2"><a onclick="onClick(this);">　</a></td>
+            <td id="borde2-3"><a onclick="onClick(this);">　</a></td>
+        </tr>
+        <tr>
+            <td id="borde3-1"><a onclick="onClick(this);">　</a></td>
+            <td id="borde3-2"><a onclick="onClick(this);">　</a></td>
+            <td id="borde3-3"><a onclick="onClick(this);">　</a></td>
+        </tr>
+    </table>
+    <div class="inner">
+        <button type="button" id="update">やり直す</button>
+    </div>
+  </body>
+</html>

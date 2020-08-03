@@ -1,0 +1,38 @@
+html {
+    font-size: 20px; /* px means 'pixels': the base font size is now 10 pixels high  */
+    font-family: 'Anton', sans-serif;/* this should be the rest of the output you got from Google fonts */ 
+    background-color: #FF9500;
+}
+#victory {
+    font-size: 50px;
+    line-height:1.5;
+    text-align: center;
+}
+body {
+    margin: 0 auto;
+}
+table {
+    border-collapse: collapse;
+    width : 350px ;
+    height : 350px ;
+    margin: 0 auto;
+}
+table tr {
+    border: solid 1px rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    color:white
+}
+button#update {
+    padding: 17px 100px;
+    border-radius: 25px;
+    color: #FFF;
+    background-color: #0E001B;
+}
+.inner{
+    font-size: 80px;
+    text-align: center;
+    top: 150px;
+    padding: 110px 20px 150px 20px;
+}
